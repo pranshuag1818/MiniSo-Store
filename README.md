@@ -1,2 +1,1 @@
-# MiniSo-Store
-It is an E-Commerce website
+This is shopping cart where you see all party supplies.

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="nav.css">
+    <!-- bootstrap cdn link-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
+    <!-- including font-awesome and bootstrap-social -->
+    <script src="https://kit.fontawesome.com/f4bc18eeb3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/bootstrap-social.css">
+
+    <!-- google font cdn-->
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@300&display=swap" rel="stylesheet">
+    <link rel='icon' href="img/logo.png">
+
+
+
+
+
+
+    <link rel="stylesheet" href="styles1.css" />
+
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="app1.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"
+        integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg=="
+        crossorigin="anonymous"></script>
+
+
+
+    <script>
+        var wow = new WOW(
+            {
+                boxClass: 'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset: 0,          // distance to the element when triggering the animation (default is 0)
+                mobile: true,       // trigger animations on mobile devices (default is true)
+                live: true,       // act on asynchronously loaded content (default is true)
+                callback: function (box) {
+                    // the callback is fired every time an animation is started
+                    // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                resetAnimation: true,     // reset animation on end (default is true)
+            }
+        );
+        wow.init();
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+<!--navbar-->
+<div class="topnav" id="myTopnav">
+    <a href="index1.html" class="active">Home</a>
+    <a href="store.html">Products</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+
+
+    <!-- Navbar Section 
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#" id="navbar__logo">CONFETTI CART</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index1.html" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about.html" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="contact.html" class="navbar__links" id="services-page">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>-->
+    <section class="breadcrumbs-section">
+        <div class="container p-1 p-sm-3">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="wow fadeOut">
+                        About Us
+                    </h2>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index1.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">About Us</a></li>
+
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="about-section">
+        <div class="container p-1 p-sm-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="wow slideInDown">
+                        About Confetti cart
+                    </h2>
+                    <hr />
+                </div>
+                <!--<div class="col-md-3 ">
+                    <img class="img-fluid"   src="img/miniproject_logo (2).jpg">
+                </div>-->
+                <div class="col-9 ">
+                    <p>
+                        Confetti Cart has the party supplies you need, all in one place, all year long. For birthdays
+                        and
+                        beyond, no matter what you're celebrating, this online portal has everything you could ever want
+                        when
+                        you're throwing the best party ever. The ease and convenience of the site makes planning and
+                        shopping
+                        for your party almost as fun as having it!
+
+                    </p>
+                    <p>
+                        Confetti Cart has the party supplies you need, all in one place, all year long. For birthdays
+                        and
+                        beyond, no matter what you're celebrating, this online portal has everything you could ever want
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="">How it works</a> <a href="">Testimonials</a>
+                    <a href="">Careers</a> <a href="">Terms of Service</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="">Contact</a> <a href="">Support</a>
+                    <a href="">Destinations</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Videos</h2>
+                    <a href="">Submit Video</a> <a href="">Ambassadors</a>
+                    <a href="">Agency</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="">Instagram</a> <a href="">Facebook</a>
+                    <a href="">Youtube</a> <a href="">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="" id="footer__logo">CONFETTI CART</a>
+                </div>
+                <p class="website__rights">© CONFETTI CART 2020. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                    <a href="" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+                    <a href="" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                    <a href="" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+    
+
+
+
+
+</body>
+
+</html>
